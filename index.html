@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="kross.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">My Stunning Landing Page</h1>
+            <nav class="nav">
+                <a href="#welcome">Home</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section id="welcome" class="section welcome">
+        <div class="container">
+            <h2>Welcome to Your Future</h2>
+            <p>Discover endless possibilities with our premium designs!</p>
+            <button class="btn">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2>Our Expertise</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Custom Design</h3>
+                    <p>Tailored solutions to fit your unique needs.</p>
+                </div>
+                <div class="card">
+                    <h3>Development</h3>
+                    <p>Robust and scalable systems built with precision.</p>
+                </div>
+                <div class="card">
+                    <h3>Marketing</h3>
+                    <p>Strategies that deliver real results for your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="images">
+                <img src="1000_F_96943018_Py8pG34NRkIY0EnPoKG8ZRaaWnREeDFu.jpg" alt="Sample 1">
+                <img src="793d5775598351943faddc1e7c2b8bce.jpg" alt="Sample 2">
+                <img src="fb114bdabeaa27df07d1c7604bbc1bd4.jpg" alt="Sample 3">
+                <img src="i.webp" alt="Sample 4">
+                <img src="scale_1200.jpeg" alt="Sample 5">
+                <img src="illustration-digital-art-abstract-symmetry-glass-triangle-pattern-circle-shapes-Toy-ART-light-color-lighting-shape-design-modern-art-143517.jpg" alt="Sample 6">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form action="kross.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Landing Page. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
